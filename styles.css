@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(./resources/Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./resources/Poppins-Medium.ttf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    height: 100vh;
+    display: block;
+    min-height: 700px;
+}
+
+h1 {
+    position: absolute;
+    top: 80vh;
+    left: 16vh;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 2rem;
+    color: white;
+}
+
+section {
+    display: flex;
+    background-color: rgb(194, 194, 194);
+}
+
+.signUpContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
