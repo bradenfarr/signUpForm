@@ -11,36 +11,85 @@
 body {
     margin: 0px;
     padding: 0px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(194, 194, 194);
 }
 
 img {
     height: 100vh;
     display: block;
     min-height: 700px;
+    float: left;
+    padding-right: 50px;
 }
 
 h1 {
     position: absolute;
     top: 80vh;
-    left: 16vh;
+    left: 10vh;
     text-align: center;
     font-family: 'Nunito';
-    font-size: 2rem;
+    font-size: 45px;
     color: white;
 }
 
-section {
-    display: flex;
-    background-color: rgb(194, 194, 194);
+.signUpContainer {
+    font-family: 'Poppins';
+} 
+
+p {
+    margin-top: 0;
+    padding-top: 40px;
+    padding-right: 40px;
+    font-size: 5vh;
 }
 
-.signUpContainer {
+h2 {
+    padding-top:20px;
+    font-size: 30px;
+}
+
+.banner {
+    height: 100%;
+    min-width: 400px;
+    background-color: rgb(229, 229, 229);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+form {
     display: flex;
-    flex-direction: column;
-    font-family: 'Poppins';
 }
 
 label, input {
     display: flex;
     flex-direction: column;
+    margin-right: 100px;
 }
+
+input {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(155, 154, 154);
+    height: 30px;
+    width: 300px;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(10, 10, 180);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top:40px ;
+    font-size: 25px;
+    height: 60px;
+}
+
+.login {
+    font-size: 20px;
+}
+
+
