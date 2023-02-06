@@ -19,7 +19,7 @@ body {
 img {
     height: 100vh;
     display: block;
-    min-height: 700px;
+    min-height: 800px;
     float: left;
     padding-right: 50px;
 }
@@ -86,11 +86,17 @@ button {
     margin-top:40px ;
     font-size: 25px;
     height: 60px;
+    width: 350px;
 }
 
 .login {
     font-size: 20px;
     margin-bottom: -20px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
 }
 
 
